@@ -1,0 +1,16 @@
+{
+  "name": "Focus on the GitHubSearch",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["https://github.com/"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "focus": {
+      "suggested_key": "Ctrl+Shift+P",
+      "description": "Focus on the GitHubSearch"
+    }
+  }
+}
