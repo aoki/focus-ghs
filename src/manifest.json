@@ -1,7 +1,13 @@
 {
   "name": "Focus on the GitHubSearch",
+  "description": "Focus on the GitHubSearch",
   "version": "1.0",
   "manifest_version": 3,
+  "icons": {
+    "16": "imgs/icon16.png",
+    "48": "imgs/icon48.png",
+    "128": "imgs/icon128.png"
+  },
   "permissions": ["tabs", "scripting"],
   "host_permissions": ["https://github.com/"],
   "background": {
