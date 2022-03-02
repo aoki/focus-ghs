@@ -1,7 +1,7 @@
 {
   "name": "Focus on the GitHubSearch",
   "description": "Focus on the GitHubSearch",
-  "version": "1.0",
+  "version": "0.1.0",
   "manifest_version": 3,
   "icons": {
     "16": "imgs/icon16.png",
